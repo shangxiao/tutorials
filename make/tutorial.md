@@ -38,6 +38,11 @@ From the command line we can run:
 
 et voila, we have a nice convenient way of running our scripts.
 
+Specifying a Default
+--------------------
+
+If you run `make` without any targets it will run the _default goal_.  This will either simply be the first target found that doesn't start with a . or one specified explicitly with `..DEFAULT_GOAL`.
+
 Simplifying the command
 -----------------------
 
